@@ -25,6 +25,7 @@ class CountDataJoint extends AbstractJoint
     public function first(DataSet $dataSet, Pipe $pipe_in)
     {
         $this->firstCalled++;
+        
     }
 
     public function message(DataSet $dataSet, Pipe $pipe_in)
